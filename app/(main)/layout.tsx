@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from './_components/header';
 import Footer from './_components/footer';
 import Breadcrumb from './_components/breadcrumb';
+import { clash_grotesk } from '../fonts';
 
 export const metadata: Metadata = {
   title: 'Corner Stone Burger Booth - Street Food Real Flavor',
@@ -15,7 +16,7 @@ export default async function EntertainmentLayout({
 }) {
 
   return (
-        <div className='bg-black text-white overflow-y-scroll h-screen space-y-5'>
+        <div className={`bg-black text-white overflow-y-scroll h-screen space-y-5 ${clash_grotesk.className}`}>
           <Header />
           <Breadcrumb />
           {children}

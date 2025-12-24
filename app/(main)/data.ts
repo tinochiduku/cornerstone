@@ -22,35 +22,40 @@ export const menuItems: MenuItem[] = [
     name: "Cinnamon Rolls",
     category: "Pastry Snacks",
     price: 2.50,
-    img: ""
+    description: "Soft, fluffy rolls swirled with sweet cinnamon and topped with creamy glaze",
+    img: "/menu/cinnamonroll.png"
   },
   {
     id: "pastry-002",
     name: "Chocolate Coated Donuts",
     category: "Pastry Snacks",
     price: 1.50,
-    img: ""
+    description: "Light and airy donuts generously coated in rich chocolate",
+    img: "/menu/chocolate-doughnut.avif"
   },
   {
     id: "pastry-003",
     name: "Fish Quiche",
     category: "Pastry Snacks",
     price: 2.00,
-    img: ""
+    description: "Flaky pastry filled with tender fish in a creamy egg custard",
+    img: "/menu/fish-quiche.png"
   },
   {
     id: "pastry-004",
     name: "Sausage Rolls",
     category: "Pastry Snacks",
     price: 1.50,
-    img: ""
+    description: "Savory sausage meat wrapped in golden flaky pastry",
+    img: "/menu/sausage-roll.gif"
   },
   {
     id: "pastry-005",
     name: "Chicken and Mushroom Pie",
     category: "Pastry Snacks",
     price: 2.00,
-    img: ""
+    description: "Tender chicken and mushrooms in creamy sauce, encased in buttery pastry",
+    img: "/menu/chicken-and-mushroom.webp"
   },
 
   // Main Meals
@@ -60,7 +65,7 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 2.00,
     description: "Hot dogs with coleslaw salad",
-    img: ""
+    img: "/menu/country-style-hotdog.png"
   },
   {
     id: "main-002",
@@ -68,7 +73,7 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 2.50,
     description: "In BBQ sauce with French fries",
-    img: ""
+    img: "/menu/quarter-chicken.webp"
   },
   {
     id: "main-003",
@@ -76,7 +81,7 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 2.50,
     description: "Any type of burger with chips",
-    img: ""
+    img: "/menu/burger-and-chips.png"
   },
   {
     id: "main-004",
@@ -84,49 +89,55 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 3.00,
     description: "In creamy mushroom sauce with French fries",
-    img: ""
+    img: "/menu/stuffed-pita-bread.png"
   },
   {
     id: "main-005",
     name: "Bolognese Jacket Potatoes",
     category: "Main Meals",
     price: 2.00,
-    img: ""
+    description: "Fluffy baked potatoes topped with rich meat bolognese sauce",
+    img: "/menu/bolognese-jacket-potatoes.webp"
   },
   {
     id: "main-006",
     name: "Loaded Fries",
     category: "Main Meals",
     price: 2.50,
-    img: ""
+    description: "Crispy fries piled high with cheese, bacon, and savory toppings",
+    img: "/menu/loaded-fries.png"
   },
   {
     id: "main-007",
     name: "Chicken Avocado Salsa Burrito",
     category: "Main Meals",
     price: 3.00,
-    img: ""
+    description: "Grilled chicken with fresh avocado salsa wrapped in a soft tortilla",
+    img: "/menu/chicken-salsa-burrito.png"
   },
   {
     id: "main-008",
     name: "Cheese Steak Loaded Fries",
     category: "Main Meals",
     price: 2.00,
-    img: ""
+    description: "Golden fries topped with tender steak strips and melted cheese",
+    img: "/menu/cheese-steak-loaded-fries.png"
   },
   {
     id: "main-009",
     name: "Cornerstone Pork and Pear Burger",
     category: "Main Meals",
     price: 2.00,
-    img: ""
+    description: "Juicy pork patty with sweet caramelized pears in a soft bun",
+    img: "/menu/pork-and-pear-burger.png"
   },
   {
     id: "main-010",
     name: "Cornerstone Chicken Mushroom Burger",
     category: "Main Meals",
     price: 2.00,
-    img: ""
+    description: "Grilled chicken breast with sautéed mushrooms and special sauce",
+    img: "/menu/chicken-and-mushroom-burger.png"
   },
   {
     id: "main-011",
@@ -135,7 +146,7 @@ export const menuItems: MenuItem[] = [
     price: 2.50,
     description: "Vegetarian burger with sweet potato chips",
     isVegetarian: true,
-    img: ""
+    img: "/menu/chickpea-and-corn-burger.png"
   },
   {
     id: "main-012",
@@ -143,7 +154,7 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 3.00,
     description: "With chips",
-    img: ""
+    img: "/menu/grilled-pork-ribs.png"
   },
   {
     id: "main-013",
@@ -151,7 +162,7 @@ export const menuItems: MenuItem[] = [
     category: "Main Meals",
     price: 2.50,
     description: "In creamy cheese sauce with French fries",
-    img: ""
+    img: "/menu/fish-fingers.webp"
   },
 
   // Salads
@@ -160,28 +171,32 @@ export const menuItems: MenuItem[] = [
     name: "Apple Slaw Salad",
     category: "Salads",
     price: 0.50,
-    img: ""
+    description: "Crisp apples and cabbage tossed in a tangy creamy dressing",
+    img: "/menu/appleslaw-salad.png"
   },
   {
     id: "salad-002",
     name: "Two Way Cabbage Slaw",
     category: "Salads",
     price: 0.50,
-    img: ""
+    description: "Classic coleslaw with red and white cabbage in zesty mayo",
+    img: "/menu/two-way-cabbage-slaw.avif"
   },
   {
     id: "salad-003",
     name: "Garden Salad",
     category: "Salads",
     price: 0.50,
-    img: ""
+    description: "Fresh mixed greens, tomatoes, cucumber, and crisp vegetables",
+    img: "/menu/garden-salad.webp"
   },
   {
     id: "salad-004",
     name: "Potato Salad",
     category: "Salads",
     price: 0.50,
-    img: ""
+    description: "Creamy potato salad with herbs, mayo, and a hint of mustard",
+    img: "/menu/potato-salad.png"
   },
 
   // Dipping Sauces
@@ -190,27 +205,34 @@ export const menuItems: MenuItem[] = [
     name: "Mushroom Dipping Sauce",
     category: "Dipping Sauces",
     price: 0.50,
-    img: ""
+    img: "/menu/mushroom-dipping-sauce.webp"
   },
   {
     id: "sauce-002",
     name: "Creamy Lemon and Garlic Fish Sauce",
     category: "Dipping Sauces",
     price: 0.50,
-    img: ""
+    img: "/menu/creamy-lemon-and-garlic-dipping-sauce.png"
   },
   {
     id: "sauce-003",
     name: "BBQ Sauce",
     category: "Dipping Sauces",
     price: 0.50,
-    img: ""
+    img: "/menu/bbq-sauce.png"
   },
   {
     id: "sauce-004",
     name: "Monkey Gland Sauce",
     category: "Dipping Sauces",
     price: 0.50,
-    img: ""
+    img: "/menu/monkey-gland-sauce.webp"
   }
 ];
+
+export const categories = [
+  'Pastry Snacks', 
+  'Main Meals',
+  'Salads',
+  'Dipping Sauces'
+]

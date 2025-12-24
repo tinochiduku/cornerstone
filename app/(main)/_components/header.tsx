@@ -228,23 +228,28 @@ children?: Link[]
 // Navigation Array
 export const _nav: Link[] = [
   {
+    title: "About",
+    href: "#about",
+    path: "about"
+  },
+  {
     title: "Pastry Snacks",
-    href: "#menu-pastry-snacks",
+    href: "#menu",
     path: "pastry-snacks"
   },
   {
     title: "Main Meals",
-    href: "#menu-main-meals",
+    href: "#menu",
     path: "main-meals"
   },
   {
     title: "Salads",
-    href: "#menu-salads",
+    href: "#menu",
     path: "salads"
   },
   {
     title: "Dipping Sauces",
-    href: "#menu-dipping-sauces",
+    href: "#menu",
     path: "dipping-sauces"
   },
   {
